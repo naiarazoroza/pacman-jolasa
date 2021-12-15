@@ -5,6 +5,7 @@ let mamua = game.createSprite(2, 2)
 mamua.set(LedSpriteProperty.Blink, 100)
 mamua.set(LedSpriteProperty.Brightness, 50)
 janaria.set(LedSpriteProperty.Brightness, 10)
+janaria_2.set(LedSpriteProperty.Brightness, 10)
 basic.forever(function () {
     mamua.move(1)
     basic.pause(500)
